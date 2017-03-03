@@ -1,0 +1,33 @@
+{
+  "name": "TP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+
+  "author": "Wissame Zouggari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "json-api": "^2.15.7",
+    "mongoose": "^4.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "space": 2,
+    "rules": {
+      "max-len": [
+        "error",
+        80,
+        2
+      ]
+    }
+  }
+}
