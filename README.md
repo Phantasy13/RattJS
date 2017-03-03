@@ -16,7 +16,7 @@
 
 		> mongod
 		
-5. Open: [http://localhost:3000](http://localhost:3000)
+5. Open: [http://localhost:3000/api](http://localhost:3000/api)
 
 
 
